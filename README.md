@@ -1,16 +1,8 @@
-# React + Vite
+# чем отличаются localStorage, sessionStorage и cookie;
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+localStorage нужен для хранения постоянных данных такие как тема языки и т.д.
+sessionStorage нужны для хранения временных данных во время сесии на сайте если закрыли вкладку они не сохранятся 
+cookie нужны для хранения защещеных и времнных данные которые использует пользователь на странице 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+какие риски есть у хранения токена в браузере
+его могут подрезать если не исполльзовать защещенный протокол
